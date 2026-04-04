@@ -2,7 +2,7 @@
   description = "Katachi (形) — UI component framework for Neovim: popups, inputs, menus, notifications, command palette";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
     substrate = {
       url = "github:pleme-io/substrate";
       inputs.nixpkgs.follows = "nixpkgs";
